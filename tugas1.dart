@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  //input skor  Tim Lumba-lumba
+  //Input skor  Tim Lumba-lumba
   print('Masukkan skor Tim Lumba-lumba (3 angka dipisahkan spasi):');
   List<int> skorLumbaLumba = stdin.readLineSync()!.split(' ').map(int.parse).toList();
 

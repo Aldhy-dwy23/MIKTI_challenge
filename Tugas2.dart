@@ -1,13 +1,13 @@
 import 'dart:io';
 
 void main() {
-  // Meminta input berat dan tinggi badan Mark
+  //Input berat dan tinggi Mark
   print('Masukkan berat Mark (kg):');
   double beratMark = double.parse(stdin.readLineSync()!);
   print('Masukkan tinggi Mark (meter):');
   double tinggiMark = double.parse(stdin.readLineSync()!);
 
-  // Meminta input berat dan tinggi badan John
+  //Input berat dan tinggi John
   print('Masukkan berat John (kg):');
   double beratJohn = double.parse(stdin.readLineSync()!);
   print('Masukkan tinggi John (meter):');
