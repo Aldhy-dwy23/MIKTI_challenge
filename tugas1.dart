@@ -19,15 +19,15 @@ void main() {
 
   //Menentukan pemenang atau seri
   if (rataRataLumbaLumba > rataRataKoala && rataRataLumbaLumba >= 100) {
-    print('Tim Lumba-lumba memenangkan trofi dengan skor rata-rata ${rataRataLumbaLumba.toStringAsFixed(2)}.');
+    print('Tim Lumba-lumba memenangkan trofi dengan rata-rata ${rataRataLumbaLumba.toStringAsFixed(2)}.');
   } 
     else if (rataRataKoala > rataRataLumbaLumba && rataRataKoala >= 100) {
-    print('Tim Koala memenangkan trofi dengan skor rata-rata ${rataRataKoala.toStringAsFixed(2)}.');
+    print('Tim Koala memenangkan trofi dengan rata-rata ${rataRataKoala.toStringAsFixed(2)}.');
   } 
     else if (rataRataLumbaLumba == rataRataKoala && rataRataLumbaLumba >= 100 && rataRataKoala >= 100) {
     print('Hasilnya seri dengan skor rata-rata ${rataRataLumbaLumba.toStringAsFixed(2)}.');
   } 
     else {
-    print('Tidak ada pemenang, tidak ada tim yang memenuhi syarat skor minimum.');
+    print('Tidak ada pemenang, dikarenakan tidak ada tim yang memenuhi syarat skor minimum.');
   }
 }
